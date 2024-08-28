@@ -25,7 +25,6 @@ def execute_query(query,params=None):
     """"""
     cur = None
     conn = None
-
     try:
         conn = connect_to_db()
 
